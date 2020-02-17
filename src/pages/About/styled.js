@@ -6,5 +6,5 @@ export const AboutStyle = style.div`
     background-size:cover;
     position:fixed;
     width: 100%;
-    height: 95vh;
+    height: 100vh;
 `;

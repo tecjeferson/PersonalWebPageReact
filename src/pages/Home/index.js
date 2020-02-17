@@ -1,25 +1,26 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { HomeSyle } from './styled'
+import { HomeStyle } from './styled'
 
 
 const Page = () => {
     return (
-        <HomeSyle>
+        <HomeStyle>
             <div class="container">
                 <div class="row text-center">
-                    <div class="col mt-5 ">
-                        <h1>Jeferson Rocha</h1>
+                    <div class="col nameTitle">
+                        <h1 class="">Jeferson Rocha</h1>
                         <hr />
-                        <h2>Web developer</h2>
+                        <h2 class="">Software developer</h2>
                     </div>
                 </div>
 
+                <button type="button" name="" value="" class="css3button">Contato</button>
 
 
 
             </div>
-        </HomeSyle>
+        </HomeStyle>
     )
 }
 
