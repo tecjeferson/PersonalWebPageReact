@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
     return (
         <HeaderArea>
-            <nav class="navbar navbar-expand-sm fixed-top navbar-trans navbar-inverse ">
+            <nav class="navbar navbar-expand-sm fixed-top navbar-trans navbar-inverse">
                 <div class="container">
                     <button class="navbar-toggler  mr-5" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"

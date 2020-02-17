@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
 export const HeaderArea = styled.div`
-   
+   nav{
+    background-color:#010d2952;
+}
 
    li a{
        color:white;

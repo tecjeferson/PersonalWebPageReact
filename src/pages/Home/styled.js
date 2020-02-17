@@ -4,9 +4,7 @@ import ImageML from '../../img/machineLearning4.png'
 
 export const HomeStyle = style.div`
 
-    background:url(${ImageML});
-    
-
+    background:linear-gradient(rgba(253, 193, 255, 0.219),#372a68),url(${ImageHeader});
     background-repeat: no-repeat;
     bottom: 0;
     color: black;
@@ -28,28 +26,31 @@ export const HomeStyle = style.div`
     .nameTitle{
         color:#FFF;
         margin-top:30px;
-
+       
         h1{
             text-align:center;
-            font-size:32px;
+            font-size:38px;
+            margin-top:200px;
         }
         hr{
             background-color:#FFF;
-            width: 250px;
+            width: 300px;
             height:1px;
             margin-top:1px;
             margin-bottom:1px;
         }
         h2{
             text-align:center;
-            
+            font-size:30px;
+            margin-bottom:20px;
         }
     }
 
 button.css3button {
+    
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
-	color: #570057;
+	color: #000;
 	padding: 8px 20px;
 	background: -webkit-gradient(
 		linear, left top, left bottom,
@@ -60,10 +61,9 @@ button.css3button {
 		#ffffff 0%,
 		#ffffff);
 	border-radius: 4px;
-	border: 1px solid #000000;
+	
 	box-shadow:
-		0px 1px 3px rgba(10,10,10,0.5),
-		inset 0px 0px 5px rgba(74,5,61,0.6);
+		0px 1px 3px rgba(10,10,10,0.5)
 	text-shadow:
 		0px -1px 3px rgba(255,255,255,0.8),
 		0px 1px 0px rgba(255,255,255,0.3);
