@@ -2,7 +2,7 @@
   "name": "jefersonvrocha-ladingpage",
   "version": "0.1.0",
   "engines": {
-    "node": "12.2.0"
+    "node": "10.15.3"
   },
   "private": true,
   "dependencies": {
