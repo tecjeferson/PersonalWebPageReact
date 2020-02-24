@@ -17,93 +17,101 @@ export const HomeStyle = style.div`
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+   
        
     height: 100vh;
 
-    .img-profile{
-        margin-top:30px;
-        border:1px solid white;
-    }
+   
 
     .nameTitle{
         color:#FFF;
                
         h1{
+            color:#000;
             text-align:center;
-            font-size:72px;
+            font-size:82px;
             margin-top:20px;
+            text-shadow:0.5px 0.5px #00FFFF;
         }
         hr{
-            background-color:#FFF;
-            width: 300px;
-            height:1px;
+            background-color:#00FFFF;
+            width: 400px;
+            height:2px;
             margin-top:1px;
             margin-bottom:1px;
         }
         h2{
+            color:#000;
             text-align:center;
-            font-size:40px;
+            font-size:50px;
             margin-bottom:20px;
+            text-shadow:0.5px 0.5px #00FFFF;
         }
     }
 
-.whatsIcon{
-    margin-left:0;
-    padding-left:0;
-    margin-right:10px;
+    .App {
+        text-align: center;
+      
+    }
+    
+    .App-logo {
+        margin-top:100px;
+        height: 25vmin;
+        pointer-events: none;
+       
+        
+    }
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 
-.myButton {
-	box-shadow:inset 0px 1px 0px 0px #a4e271;
-	.myButton {
-	box-shadow:inset 0px 1px 0px 0px #a4e271;
-	background:linear-gradient(to bottom, #89c403 5%, #d4ff6e 100%);
-	background-color:#89c403;
-	border-radius:6px;
-	border:1px solid #74b807;
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(560deg);
+  }
+}
+
+
+
+
+.btnContact {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:3px;
+	border:1px solid #dcdcdc;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#000;
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
-	padding:6px 24px;
+	padding:5px 15px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #528009;
+	text-shadow:0px 1px 0px #ffffff;
+	box-shadow:1px 1px 1px #00FFFF;
 }
-.myButton:hover {
-	background:linear-gradient(to bottom, #d4ff6e 5%, #89c403 100%);
-	background-color:#d4ff6e;
+.btnContact:hover {
+		background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
 }
-.myButton:active {
+.btnContact:active {
 	position:relative;
 	top:1px;
 }
 
-	background-color:#89c403;
-	border-radius:50px;
-	border:1px solid #74b807;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding-right:20px;
-   
-	text-decoration:none;
-	text-shadow:0px 1px 0px #528009;
-}
-.myButton:hover {
-	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
-	background-color:#77a809;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
-}
+
+
+
 
 
 

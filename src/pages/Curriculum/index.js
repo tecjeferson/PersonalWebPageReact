@@ -7,15 +7,15 @@ import imageCetral from '../../img/profile2.jpg'
 const Page = () => {
     return (
         <CurriculoStyle>
-            <div class="container ">
-                <div class="row">
+            <div className="container ">
+                <div className="row">
 
-                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center Imagetop">
-                        <img src={imageCetral} class="rounded-circle img-profile" height="140" />
+                    <div className="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center Imagetop">
+                        <img src={imageCetral} className="rounded-circle img-profile" height="140" />
                     </div>
 
 
-                    <div class="col boxStyle initBox">
+                    <div className="col boxStyle initBox">
                         <h3>ABOUT</h3>
                         <hr />
                         <p>
@@ -27,8 +27,8 @@ const Page = () => {
                 </div>
 
 
-                <div class="row">
-                    <div class="col  boxStyle">
+                <div className="row">
+                    <div className="col  boxStyle">
                         <h3>INTRODUCTION</h3>
                         <hr />
                         <p>
@@ -43,8 +43,8 @@ const Page = () => {
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col  boxStyle">
+                <div className="row">
+                    <div className="col  boxStyle">
                         <h3>LANGUAGES</h3>
                         <hr />
                         <p>
@@ -60,8 +60,8 @@ const Page = () => {
                 </div>
 
 
-                <div class="row">
-                    <div class="col  boxStyle">
+                <div className="row">
+                    <div className="col  boxStyle">
                         <h3>SKILLS & KNOWLEDGE</h3>
                         <hr />
                         <p>
@@ -75,8 +75,8 @@ const Page = () => {
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col  boxStyle">
+                <div className="row">
+                    <div className="col  boxStyle">
                         <h3>EDUCATION</h3>
                         <hr />
                         <p>2016 - Undergraduate System Analysis and Development</p>
@@ -84,8 +84,8 @@ const Page = () => {
                 </div>
 
 
-                <div class="row">
-                    <div class="col  boxStyle mb-5">
+                <div className="row">
+                    <div className="col  boxStyle mb-5">
                         <h3>EXPERIENCE</h3>
                         <hr />
                         <p>2014 - Present</p>

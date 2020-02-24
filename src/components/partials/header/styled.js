@@ -2,17 +2,24 @@ import styled from 'styled-components'
 
 export const HeaderArea = styled.div`
    nav{
-    background-color:#010d2952;
+    background-color:#1C1C1C;
 }
+    img{
+        border: 1px solid white;
+    }
+    i{
+        color:#00FFFF;  
+    }
 
    li a{
-       color:white;
+       color:#00FFFF; 
        margin-right:10px;
+       font-weight:bold; 
        
        
    }
    li a:hover{
-        color:#9400D3;
+        color:white;
         margin-right:10px;  
         font-weight:bold;    
         transition: 0.8s;
@@ -65,7 +72,7 @@ export const HeaderArea = styled.div`
 @media (min-width: 320px) and (max-width: 480px) {
 
   nav{
-background-color: rgba(126, 119, 131, 0.9); 
+background-color: #1C1C1C; 
 color: rgba(126, 119, 131, 0.9);
 }
 }

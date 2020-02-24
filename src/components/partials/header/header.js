@@ -1,6 +1,7 @@
 import React from 'react'
 import { HeaderArea } from './styled'
 import { Link } from 'react-router-dom'
+import imageIcon from '../../../img/profile2.jpg'
 
 
 const Header = () => {
@@ -11,7 +12,7 @@ const Header = () => {
                     <button class="navbar-toggler  mr-5" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-bars text-white"></i>
+                        <i class="fas fa-bars"></i>
                     </button>
 
                     <div class="collapse navbar-collapse justify-content-start mr-5 text-right"
@@ -39,7 +40,9 @@ const Header = () => {
                         </ul>
 
                     </div>
+                    <img src={imageIcon} className="rounded-circle img-profile" height="40" />
                 </div>
+
             </nav>
         </HeaderArea>
     )

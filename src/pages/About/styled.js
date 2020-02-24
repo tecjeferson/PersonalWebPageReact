@@ -12,18 +12,11 @@ export const AboutStyle = style.div`
     .Box{
         margin-top:200px;
         padding:30px;
-        background-image:linear-gradient(rgba(253, 193, 255, 0.1),#372a68);
-        border: 1px 1px solid white;
-        box-shadow: 2px 2px 2px 2px;
+        background-color:#1C1C1C;
+        border-radius:10px;
+        box-shadow: 2px 2px 2px #00FFFF;
     }
-    .Box:hover{
-        margin-top:200px;
-        background-image:linear-gradient(rgba(253, 193, 255, 0.293),#372a68);
-        border: 1px 1px solid white;
-        box-shadow: 2px 2px 2px 2px;
-        transition-duration: 2s;
-        transition-property: margin-right, color;
-    }
+
     p{
         font-size:20px;
         margin-top:20px;
