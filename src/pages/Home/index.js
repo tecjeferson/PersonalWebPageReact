@@ -16,7 +16,7 @@ const Page = () => {
                 <div className="col nameTitle">
                     <h1 className="">Jeferson Rocha</h1>
                     <hr />
-                    <h2 className="">Software developer</h2>
+                    <h2 className="">Software Developer</h2>
                 </div>
             </div>
             <a href="https://api.whatsapp.com/send?l=pt&phone=5521983650017" className="btnContact" src={imageCetral}>

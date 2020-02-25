@@ -36,7 +36,7 @@ export const HomeStyle = style.div`
         }
         hr{
             background-color:#00FFFF;
-            width: 400px;
+            width: 450px;
             height:2px;
             margin-top:1px;
             margin-bottom:1px;
