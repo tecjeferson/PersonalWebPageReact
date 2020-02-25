@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d810ff002bc8867b3f2fb13ab38455d",
+    "revision": "ae5808ccccf0d53c55a02fb953cff0d3",
     "url": "./index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "f14a2ed442ddf1472072",
+    "revision": "5ada790b734a1856201c",
     "url": "./static/css/main.f55fde80.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.72354893.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f14a2ed442ddf1472072",
-    "url": "./static/js/main.0af47bdb.chunk.js"
+    "revision": "5ada790b734a1856201c",
+    "url": "./static/js/main.0e7f5816.chunk.js"
   },
   {
     "revision": "9a972e64f429725b0760",
@@ -40,11 +40,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/homem-olhando.53774ac0.png"
   },
   {
-    "revision": "73bec2e17801eaf39924d844c6956ccb",
-    "url": "./static/media/profile2.73bec2e1.jpg"
+    "revision": "fef1d0016607cbc59debc7f8d4f07d81",
+    "url": "./static/media/logo.fef1d001.svg"
   },
   {
-    "revision": "9d2301afe55754a876e569b8a1e13e06",
-    "url": "./static/media/whatsapp.9d2301af.png"
+    "revision": "73bec2e17801eaf39924d844c6956ccb",
+    "url": "./static/media/profile2.73bec2e1.jpg"
   }
 ]);

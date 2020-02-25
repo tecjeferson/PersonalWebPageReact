@@ -5,7 +5,7 @@ export const AboutStyle = style.div`
     font-family: 'Jura', sans-serif;
     background-image:linear-gradient(rgba(253, 193, 255, 0.219),#372a68),url(${ImageAbout});
     background-size:cover;
-    position:fixed;
+    position:absolute;
     width: 100%;
     height: 100vh;
 
@@ -74,28 +74,7 @@ export const AboutStyle = style.div`
 
 @media (min-width: 320px) and (max-width: 480px) {
     
-    h1{
-        font-size:20px;
-    }
-   .Box{
-        margin-top:0px;
-        padding:8px;
-        background-image:linear-gradient(rgba(253, 193, 255, 0.1),#372a68);
-        border: none;
-        box-shadow: none;
-    }
-    .Box:hover{
-        margin-top:0px;
-        background-image:linear-gradient(rgba(253, 193, 255, 0.293),#372a68);
-        border: none;
-        box-shadow: none;
-        
-    }
-    p{
-        font-size:17px;
-        margin-top:20px;
-        padding:8px;
-    }
+    
     
 }
 `;

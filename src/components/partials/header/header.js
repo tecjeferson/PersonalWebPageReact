@@ -7,34 +7,34 @@ import imageIcon from '../../../img/profile2.jpg'
 const Header = () => {
     return (
         <HeaderArea>
-            <nav class="navbar navbar-expand-sm fixed-top navbar-trans navbar-inverse">
-                <div class="container">
-                    <button class="navbar-toggler  mr-5" type="button" data-toggle="collapse"
+            <nav className="navbar navbar-expand-sm fixed-top navbar-trans navbar-inverse">
+                <div className="container">
+                    <button className="navbar-toggler  mr-5" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-bars"></i>
+                        <i className="fas fa-bars"></i>
                     </button>
 
-                    <div class="collapse navbar-collapse justify-content-start mr-5 text-right"
+                    <div className="collapse navbar-collapse justify-content-start mr-5 text-right"
                         id="navbarSupportedContent">
-                        <ul class="navbar-nav">
+                        <ul className="navbar-nav">
 
-                            <li class="nav-item active">
-                                <Link class="nav-link scroll" to="/">HOME<span class="sr-only">(current)</span></Link>
+                            <li className="nav-item active">
+                                <Link className="nav-link scroll" to="/">HOME<span className="sr-only">(current)</span></Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link scroll" to="/about">ABOUT</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link scroll" to="/about">ABOUT</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="/curriculo">CURRICULUM</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/curriculo">CURRICULUM</Link>
                             </li>
 
-                            <li class="nav-item linkedin">
-                                <a class="nav-link scroll" href="https://www.linkedin.com/in/jefersonvrocha/"
+                            <li className="nav-item linkedin">
+                                <a className="nav-link scroll" href="https://www.linkedin.com/in/jefersonvrocha/"
                                     id="navbarDropdown">LINKEDIN</a>
                             </li>
-                            <li class="nav-item github">
-                                <a class="nav-link scroll" href="https://github.com/tecjeferson"
+                            <li className="nav-item github">
+                                <a className="nav-link scroll" href="https://github.com/tecjeferson"
                                     id="navbarDropdown">GITHUB</a>
                             </li>
                         </ul>
