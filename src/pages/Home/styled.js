@@ -3,7 +3,8 @@ import ImageHeader from '../../img/891.jpg'
 
 export const HomeStyle = style.div `
     font-family: 'Jura', sans-serif;
-    background:linear-gradient(rgba(253, 193, 255, 0.219),#372a68),url(${ImageHeader});
+   
+    background:linear-gradient(rgba(0,0,0, 0.75),#ADD8E6),url(${ImageHeader});
     background-repeat: no-repeat;
     bottom: 0;
     color: black;
@@ -59,6 +60,18 @@ export const HomeStyle = style.div `
         margin-top:100px;
         height: 25vmin;
         pointer-events: none;
+       
+        
+    }
+    .img-central {
+        margin-top:100px;
+        height: 25vmin;
+        pointer-events: none;
+        
+   
+   box-shadow: 0px 0px 170px 170px rgba(255,255,255, 0.47);
+
+        
        
         
     }

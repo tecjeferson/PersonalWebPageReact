@@ -1,7 +1,8 @@
 import React from 'react'
 import { HeaderArea } from './styled'
 import { Link } from 'react-router-dom'
-import imageIcon from '../../../img/profile2.jpg'
+import imageIcon from '../../../img/fotoperfil.jpg'
+import logo from '../../../img/logo.svg';
 
 
 const Header = () => {
@@ -23,10 +24,10 @@ const Header = () => {
                                 <Link className="nav-link scroll" to="/">HOME<span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link scroll" to="/about">ABOUT</Link>
+                                <Link className="nav-link" to="/about">ABOUT</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/curriculo">CURRICULUM</Link>
+                                <a className="nav-link scroll" href="https://jefersonvrocha.com.br/blog/">BLOG</a>
                             </li>
 
                             <li className="nav-item linkedin">
@@ -40,7 +41,7 @@ const Header = () => {
                         </ul>
 
                     </div>
-                    <img src={imageIcon} className="rounded-circle img-profile" height="40" />
+                    <img src={logo} className="App-logo" height="40" />
                 </div>
 
             </nav>

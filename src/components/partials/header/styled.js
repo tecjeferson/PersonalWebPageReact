@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
-export const HeaderArea = styled.div`
+export const HeaderArea = styled.div `
    nav{
-    background-color:#1C1C1C;
+    background-color:rgba(0, 2, 2,0.30);
 }
     img{
-        border: 1px solid white;
+        //border: 1px solid white;
     }
     i{
         color:#00FFFF;  
@@ -25,6 +25,23 @@ export const HeaderArea = styled.div`
         transition: 0.8s;
     
    }
+
+   @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(560deg);
+  }
+}
 
    @media (min-width: 1281px) {
 
