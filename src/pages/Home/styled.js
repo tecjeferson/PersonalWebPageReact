@@ -1,7 +1,7 @@
 import style from 'styled-components'
 import ImageHeader from '../../img/891.jpg'
 
-export const HomeStyle = style.div`
+export const HomeStyle = style.div `
     font-family: 'Jura', sans-serif;
     background:linear-gradient(rgba(253, 193, 255, 0.219),#372a68),url(${ImageHeader});
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ export const HomeStyle = style.div`
         }
         hr{
             background-color:#00FFFF;
-            width: 450px;
+            width: 600px;
             height:2px;
             margin-top:1px;
             margin-bottom:1px;
@@ -44,9 +44,9 @@ export const HomeStyle = style.div`
         h2{
             color:#000;
             text-align:center;
-            font-size:50px;
+            font-size:35px;
             margin-bottom:20px;
-            text-shadow:0.5px 0.5px #00FFFF;
+            text-shadow:0.1px 0.1px #00FFFF;
         }
     }
 

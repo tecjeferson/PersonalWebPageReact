@@ -30,7 +30,7 @@ const Page = () => {
                                             id="navbarDropdown"><i class="fab fa-github-square"></i> <strong>GITHUB</strong></a>
                                     </li>
                                     <li className="nav-item github">
-                                        <a className="nav-link scroll" href="mailto:tecjeferson@gmail.com"
+                                        <a className="nav-link scroll" href="mailto:jefersonvrocha@outlook.com"
                                             id="navbarDropdown"><i class="fas fa-envelope-open-text"></i> <strong>EMAIL</strong></a>
                                     </li>
                                 </ul>
@@ -40,7 +40,7 @@ const Page = () => {
                                 <hr />
 
 
-                                <h4>Undergraduate System Analysis and Development</h4>
+                                <h4>System Analysis and Development Degree </h4>
 
                                 <h5>December 2016</h5>
                             </div>
@@ -126,19 +126,19 @@ const Page = () => {
                                 <h4>SYSTEM ANALYST</h4>
                                 <p><em>KAISTUDO</em></p>
                                 <p>• Responsible for all IT, I was the interface between
-                                     technology and business with the stakeholders,
-                                     suggesting new procedures and investments.
+                                technology and business with the stakeholders,
+                                suggesting new procedures and investments.
                                 </p>
                                 <p>
                                     • I implemented an internal communication system for all company (Spark).
                                 </p>
                                 <p>
                                     • Keep, update and customize ERP (Winthor \ Totvs) in use to all
-                                     areas in the company with more than 45 Account Managers.
+                                    areas in the company with more than 45 Account Managers.
                                 </p>
                                 <p>
                                     • Keep, update and customize sales system (Maxima Sistemas) in use for all
-                                     internal users and external account managers.
+                                    internal users and external account managers.
                                 </p>
                                 <p>
                                     • Training users with ERP and Sales system

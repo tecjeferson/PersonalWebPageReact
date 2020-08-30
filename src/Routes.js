@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import About from './pages/About'
 import Curriculo from './pages/Curriculum'
+import Form from './pages/Form'
 
 export default () => {
     return (
@@ -15,6 +16,9 @@ export default () => {
             </Route>
             <Route exact path="/curriculo">
                 <Curriculo />
+            </Route>
+            <Route exact path="/form">
+                <Form />
             </Route>
         </Switch>
     )

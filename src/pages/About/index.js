@@ -13,23 +13,17 @@ const Page = () => {
                 <div className="row d-flex justify-content-center mt-5 ">
                     <div className="col-lg-6 col-md-10 col-sm-12 text-white Box">
                         <h1>
-                            Colocando suas ideias na palma da sua mão.
+                            Professional background
                         </h1>
                         <p>
-                            Analista de Sistemas de formação com mais de 10 anos de experiencia em TI em empresas do Brasil e
-                            Exterior, trabalhado com equipes multiculturais, com foco na solução de problemas.
-                        </p>
-                        <p>
-                            Forte capacidade em resolver problemas, habilidade com FRONT-END, BACK-END, DATABASE, conhecimento em
-                            ASPNET MVC e ASPNET CORE.
-                        </p>
-                        <p>
-                            Sou apaixonado por viajar, conhecer novos lugares, culturas, tirar fotos e aproveitar o tempo com a
-                            minha esposa e filho...
-
-                        </p>
-                        <p>
-                            Gosto de desafios e aprender algo novo, também gosto de ensinar e compartilhar conhecimento.
+                            Hi!
+                            <br />
+                            I'm Jeferson Rocha, IT professional with more than 10 years of experience supporting the business of big companies such as Lanxess, FIFA, and Aveva.
+                        <br />
+                           I have extensive experience in solving users and systems issues.
+                           <br />
+                           I also invested in certification as Azure and Scrum to add more value to the business and deliver the server more agile.
+                           I have experience in infrastructure and good knowledge in  FrontEnd, and Backend development.
                         </p>
                     </div>
                 </div>
